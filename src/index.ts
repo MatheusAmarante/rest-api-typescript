@@ -31,5 +31,3 @@ mongoose.connect(MONGO_URL);
 mongoose.connection.on('error', (error: Error) => console.log(error));
 
 
-//teste
-//teste ²
