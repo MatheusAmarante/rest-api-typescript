@@ -21,8 +21,8 @@ app.use(bodyParser.json());
 
 const server = http.createServer(app);
 
-server.listen(8080, () => {
-    console.log('Server running on http://localhost:8080/ 🎆🎆')
+server.listen(8081, () => {
+    console.log('Server running on http://localhost:8081/ 🎆🎆')
 });
 
 const MONGO_URL = 'mongodb+srv://matheusamarante:matheusamarante@cluster3.dtenpc7.mongodb.net/?retryWrites=true&w=majority'
